@@ -1,0 +1,9 @@
+I designed and developed a full-featured web application using the popular frontend JavaScript framework React and state management library Redux. The application was built entirely from scratch, starting with creating the project structure, setting up the build system, and designing the user interface.
+
+To retrieve the data for the application, I utilized mock APIs that provided a simulated version of the product list. These mock APIs allowed me to quickly iterate on the application's functionality without relying on the real server or database. Once I received the data from the server, I used Redux lifecycle methods to store the information in the Redux store. This approach provided a centralized and predictable way to manage the application's state, which was especially helpful when dealing with complex data that required multiple components to share and update.
+
+To enable seamless navigation between pages, I utilized React Router, a popular routing library for React applications. This library allowed me to define different routes for different pages and provided a way to transition between them without reloading the entire page. I also implemented dynamic routing, which allowed me to pass parameters to different pages and modify the content accordingly.
+
+Finally, to ensure reliable and efficient delivery of the application, I deployed it on Firebase hosting, a cloud-based platform that provides reliable and scalable hosting services. Firebase hosting is a secure and cost-effective solution that ensures high-performance delivery to end-users, regardless of their location or device.
+
+Overall, the web application I developed using React and Redux hooks is a robust, reliable, and highly performant solution that provides a seamless user experience and meets the needs of modern web applications.
