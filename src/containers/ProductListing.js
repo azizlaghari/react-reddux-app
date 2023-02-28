@@ -27,7 +27,7 @@ const ProductPage = () => {
 
   console.log("Products :", products);
 
-  // Render the ProductComponent and pass the products to it as props
+    // Render the ProductComponent and pass the products to it as props
   return (
     <div className="ui grid container">
       <ProductComponent />
