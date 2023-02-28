@@ -1,9 +1,13 @@
+// Importing necessary modules
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const ProductComponent = () => {
+  // Accessing the 'products' state from the Redux store
   const products = useSelector((state) => state.allProducts.products);
+
+  // Rendering each product in the products array as a card
   const renderList = products.map((product) => {
     const { id, title, image, price, category } = product;
     return (
@@ -25,6 +29,8 @@ const ProductComponent = () => {
       </div>
     );
   });
+
+  // Rendering the list of products
   return <>{renderList}</>;
 };
 
